@@ -73,6 +73,7 @@ groups:
       - essentials.warp
       - essentials.warp.list
       - essentials.worth
+      - lwc.protect
   Moderator:
     inheritance:
       - default
@@ -82,9 +83,12 @@ groups:
     permissions:
       - essentials.kick
       - essentials.tempban
-      - essentials.time.set
-      - essentials.weather
       - essentials.kit.tools
+      - coreprotect.*
+      - OpenInv.openinv
+      - OpenInv.openself
+      - OpenInv.crossworld
+      - lwc.mod
   SuperModerator:
     inheritance:
       - Moderator
@@ -92,11 +96,24 @@ groups:
       default: false
       prefix: '&1[SuperMod]&2'
     permissions:
-
+      - essentials.time.set
+      - essentials.weather
+      - worldedit.*
+      - disguisecraft.*
+      - adminessentials.tp
+      - adminessentials.tp.others
+      - adminessentials.tphere
+      - adminessentials.mute
+      - adminessentials.freeze
+      - adminessentials.tpall
+      - adminessentials.tppos
   Admin:
     inheritance:
       - SuperModerator
     options:
       default: false
       prefix: '&3[Admin]&4'
+    permissions:
+      - lwc.admin
+      - lwc.shownotices
 schema-version: 1
