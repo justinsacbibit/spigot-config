@@ -1,0 +1,102 @@
+groups:
+  default:
+    options:
+      default: true
+      prefix: '&e[Player]&r'
+    permissions:
+      - bukkit.*
+      - -bukkit.op
+      - modifyworld.*
+      - essentials.afk
+      - essentials.afk.auto
+      - essentials.back
+      - essentials.back.ondeath
+      - essentials.balance
+      - essentials.balance.others
+      - essentials.balancetop
+      - essentials.build
+      - essentials.chat.color
+      - essentials.chat.format
+      - essentials.chat.shout
+      - essentials.chat.question
+      - essentials.compass
+      - essentials.depth
+      - essentials.delhome
+      - essentials.getpos
+      - essentials.geoip.show
+      - essentials.help
+      - essentials.helpop
+      - essentials.home
+      - essentials.ignore
+      - essentials.info
+      - essentials.kit
+      - essentials.list
+      - essentials.mail
+      - essentials.mail.send
+      - essentials.me
+      - essentials.motd
+      - essentials.msg
+      - essentials.msg.color
+      - essentials.pay
+      - essentials.r
+      - essentials.rules
+      - essentials.sell
+      - essentials.sethome
+      - essentials.sethome.multiple
+      - essentials.signs.create.protection
+      - essentials.signs.create.trade
+      - essentials.signs.break.protection
+      - essentials.signs.break.trade
+      - essentials.signs.use.balance
+      - essentials.signs.use.buy
+      - essentials.signs.use.disposal
+      - essentials.signs.use.enchant
+      - essentials.signs.use.free
+      - essentials.signs.use.gamemode
+      - essentials.signs.use.heal
+      - essentials.signs.use.info
+      - essentials.signs.use.kit
+      - essentials.signs.use.mail
+      - essentials.signs.use.protection
+      - essentials.signs.use.repair
+      - essentials.signs.use.sell
+      - essentials.signs.use.time
+      - essentials.signs.use.trade
+      - essentials.signs.use.warp
+      - essentials.signs.use.weather
+      - essentials.spawn
+      - essentials.time
+      - essentials.tpa
+      - essentials.tpaccept
+      - essentials.tpahere
+      - essentials.tpdeny
+      - essentials.warp
+      - essentials.warp.list
+      - essentials.worth
+  Moderator:
+    inheritance:
+      - default
+    options:
+      default: false
+      prefix: '&5[Mod]&e'
+    permissions:
+      - essentials.kick
+      - essentials.tempban
+      - essentials.time.set
+      - essentials.weather
+      - essentials.kit.tools
+  SuperModerator:
+    inheritance:
+      - Moderator
+    options:
+      default: false
+      prefix: '&1[SuperMod]&2'
+    permissions:
+
+  Admin:
+    inheritance:
+      - SuperModerator
+    options:
+      default: false
+      prefix: '&3[Admin]&4'
+schema-version: 1
