@@ -15,10 +15,6 @@ wget -q https://hub.spigotmc.org/jenkins/job/Spigot-Essentials/lastSuccessfulBui
 wget -q https://hub.spigotmc.org/jenkins/job/Spigot-Essentials/lastSuccessfulBuild/artifact/EssentialsSpawn/target/EssentialsSpawn-2.x-SNAPSHOT.jar -O $PLUGIN_DIR/essentialsSpawn.jar
 # OpenInv
 wget -q http://dev.bukkit.org/media/files/870/415/OpenInv.jar -O $PLUGIN_DIR/openinv.jar
-# DisguiseCraft
-wget -q http://dev.bukkit.org/media/files/870/273/DisguiseCraft.jar -O $PLUGIN_DIR/disguisecraft.jar
-# EchoPet
-# wget -q http://dev.bukkit.org/media/files/839/247/EchoPet-2.6.0.jar -O /minecraft/plugins/echopet.jar
 # FirstJoinPlus
 wget -q http://dev.bukkit.org/media/files/806/317/FirstJoinPlus.jar -O $PLUGIN_DIR/firstjoinplus.jar
 # CoreProtect
