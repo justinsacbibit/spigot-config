@@ -83,7 +83,10 @@ groups:
     permissions:
       - essentials.kick
       - essentials.tempban
-      - essentials.kit.tools
+      - essentials.kits.tools
+      - adminessentials.kick
+      - essentials.nick
+      - essentials.nick.*
       - coreprotect.*
       - OpenInv.openinv
       - OpenInv.openself
@@ -94,7 +97,7 @@ groups:
       - Moderator
     options:
       default: false
-      prefix: '&1[SuperMod]&2'
+      prefix: '&d[SuperMod]&d'
     permissions:
       - essentials.time.set
       - essentials.weather
