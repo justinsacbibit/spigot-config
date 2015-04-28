@@ -81,6 +81,7 @@ groups:
       default: false
       prefix: '&5[Mod]&e'
     permissions:
+      # TODO: Make exempt from kick
       - essentials.sethome.multiple.unlimited
       - essentials.kick
       - essentials.tempban
@@ -100,6 +101,7 @@ groups:
       default: false
       prefix: '&d[SuperMod]&d'
     permissions:
+      - essentials.whois
       - essentials.time.set
       - essentials.weather
       - worldedit.*
