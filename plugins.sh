@@ -25,6 +25,8 @@ wget -q http://dev.bukkit.org/media/files/866/562/AdminEssentials.jar -O $PLUGIN
 wget -q http://dev.bukkit.org/media/files/874/950/PermissionsEx-1.23.2.jar -O $PLUGIN_DIR/permissionsex.jar
 # LWC
 wget -q http://dev.bukkit.org/media/files/718/126/LWC.jar -O $PLUGIN_DIR/lwc.jar
+# WorldGuard
+wget -q http://dev.bukkit.org/media/files/776/556/worldguard-5.9.zip -O $PLUGIN_DIR/worldguard.jar
 
 # Root permissions should be empty
 echo Writing empty root permissions.yml

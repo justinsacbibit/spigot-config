@@ -81,6 +81,7 @@ groups:
       default: false
       prefix: '&5[Mod]&e'
     permissions:
+      - worldguard.*
       # TODO: Make exempt from kick
       - essentials.sethome.multiple.unlimited
       - essentials.kick
