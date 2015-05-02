@@ -8,7 +8,7 @@ mkdir -p $PLUGIN_DIR
 echo Downloading plugin .jars into $PLUGIN_DIR
 
 # Worldedit
-wget http://dev.bukkit.org/media/files/837/363/worldedit-bukkit-6.0.jar -O $PLUGIN_DIR/worldedit.jar
+wget http://dev.bukkit.org/media/files/837/363/worldedit-bukkit-6.0.jar -O $PLUGIN_DIR/WorldEdit.jar
 # Essentials
 wget https://hub.spigotmc.org/jenkins/job/Spigot-Essentials/lastSuccessfulBuild/artifact/Essentials/target/Essentials-2.x-SNAPSHOT.jar -O $PLUGIN_DIR/Essentials.jar
 wget https://hub.spigotmc.org/jenkins/job/Spigot-Essentials/lastSuccessfulBuild/artifact/EssentialsAntiBuild/target/EssentialsAntiBuild-2.x-SNAPSHOT.jar -O $PLUGIN_DIR/EssentialsAntiBuild.jar
