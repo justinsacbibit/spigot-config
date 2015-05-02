@@ -28,7 +28,7 @@ wget http://dev.bukkit.org/media/files/874/950/PermissionsEx-1.23.2.jar -O $PLUG
 # LWC
 wget http://dev.bukkit.org/media/files/718/126/LWC.jar -O $PLUGIN_DIR/lwc.jar
 # WorldGuard
-wget http://dev.bukkit.org/media/files/776/556/worldguard-5.9.zip -O $PLUGIN_DIR/worldguard.jar
+cp $CONFIG_DIR/plugins/WorldGuard/worldguard-6.0.0-SNAPSHOT.jar $PLUGIN_DIR/worldguard.jar
 
 # Root permissions should be empty
 echo Writing empty root permissions.yml
