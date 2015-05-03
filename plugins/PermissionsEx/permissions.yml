@@ -81,6 +81,13 @@ groups:
       default: false
       prefix: '&5[Mod]&e'
     permissions:
+      - essentials.jail.allow.*
+      - essentials.togglejail.offline
+      - essentials.jail.exempt
+      - essentials.togglejail
+      - essentials.setjail
+      - essentials.jails
+      - essentials.deljail
       - worldguard.*
       # TODO: Make exempt from kick
       - essentials.sethome.multiple.unlimited
