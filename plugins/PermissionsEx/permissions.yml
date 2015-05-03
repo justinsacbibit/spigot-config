@@ -102,6 +102,8 @@ groups:
       default: false
       prefix: '&d[SuperMod]&d'
     permissions:
+      - essentials.gamemode.others
+      - essentials.gamemode
       - worldguard.*
       - essentials.whois
       - essentials.time.set
