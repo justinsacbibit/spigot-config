@@ -14,7 +14,7 @@ wget https://hub.spigotmc.org/jenkins/job/Spigot-Essentials/lastSuccessfulBuild/
 wget https://hub.spigotmc.org/jenkins/job/Spigot-Essentials/lastSuccessfulBuild/artifact/EssentialsAntiBuild/target/EssentialsAntiBuild-2.x-SNAPSHOT.jar -O $PLUGIN_DIR/EssentialsAntiBuild.jar
 wget https://hub.spigotmc.org/jenkins/job/Spigot-Essentials/lastSuccessfulBuild/artifact/EssentialsChat/target/EssentialsChat-2.x-SNAPSHOT.jar -O $PLUGIN_DIR/EssentialsChat.jar
 wget https://hub.spigotmc.org/jenkins/job/Spigot-Essentials/lastSuccessfulBuild/artifact/EssentialsProtect/target/EssentialsProtect-2.x-SNAPSHOT.jar -O $PLUGIN_DIR/EssentialsProtect.jar
-wget https://hub.spigotmc.org/jenkins/job/Spigot-Essentials/lastSuccessfulBuild/artifact/EssentialsSpawn/target/EssentialsSpawn-2.x-SNAPSHOT.jar -O $PLUGIN_DIR/essentialsSpawn.jar
+wget https://hub.spigotmc.org/jenkins/job/Spigot-Essentials/lastSuccessfulBuild/artifact/EssentialsSpawn/target/EssentialsSpawn-2.x-SNAPSHOT.jar -O $PLUGIN_DIR/EssentialsSpawn.jar
 # OpenInv
 wget http://dev.bukkit.org/media/files/870/415/OpenInv.jar -O $PLUGIN_DIR/openinv.jar
 # FirstJoinPlus
@@ -28,7 +28,7 @@ wget http://dev.bukkit.org/media/files/874/950/PermissionsEx-1.23.2.jar -O $PLUG
 # LWC
 wget http://dev.bukkit.org/media/files/718/126/LWC.jar -O $PLUGIN_DIR/lwc.jar
 # WorldGuard
-cp $CONFIG_DIR/plugins/WorldGuard/worldguard-6.0.0-SNAPSHOT.jar $PLUGIN_DIR/worldguard.jar
+cp $CONFIG_DIR/plugins/WorldGuard/worldguard-6.0.0-SNAPSHOT.jar $PLUGIN_DIR/WorldGuard.jar
 
 # Root permissions should be empty
 echo Writing empty root permissions.yml
