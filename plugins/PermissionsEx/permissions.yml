@@ -102,6 +102,7 @@ groups:
       default: false
       prefix: '&d[SuperMod]&d'
     permissions:
+      - worldguard.*
       - essentials.whois
       - essentials.time.set
       - essentials.weather
